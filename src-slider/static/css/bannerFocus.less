@@ -1,0 +1,22 @@
+.banner-focus {
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+  padding: 4px;
+  background: rgba(0, 0, 0, .3);
+  font-size: 0;
+  border-radius: 20px;
+  top: 270px;
+  li {
+    display: inline-block; /*会导致标签和标签间的空格占位*/
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .8);
+    margin: 0 4px;
+    cursor: pointer;
+    &.active {
+      background: #f08080;
+    }
+  }
+}
